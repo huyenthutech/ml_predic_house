@@ -21,8 +21,8 @@ def dudoan(param):
     y_pred=loaded_model.predict(param)
     return y_pred
 
-st.title("Ứng dụng Streamlit dự đoán")
-st.write("test")
+st.title("Ứng dụng Streamlit dự đoán giá nhà")
+st.write("Bạn hãy điền các thông tin phía dưới để ra kết quả")
 st.write(os.getcwd())
 SquareFeet=st.number_input("Input SquareFeet:",2000)
 Bedrooms=st.number_input("Input Beedrooms:",6)
